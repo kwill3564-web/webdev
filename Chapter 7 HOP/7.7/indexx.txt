@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Homepage</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Files for WebDev</h1>
+		<nav>
+		<h3><a href="chapter2.html"> Chapter 2 Files </a></h3>
+		<h3><a href="chapter3.html"> Chapter 3 Files </a></h3>
+		<h3><a href="chapter4.html"> Chapter 4 Files </a></h3>
+		<h3><a href="chapter5.html"> Chapter 5 Files </a></h3>
+		<h3><a href="chapter6.html"> Chapter 6 Files </a></h3>
+		<h3><a href="chapter7.html"> Chapter 7 Files </a></h3>
+	</nav>
+</body>
+</html>
