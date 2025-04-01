@@ -1,0 +1,60 @@
+<!DOCTYPTE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New Form</title>
+</head>
+<body>
+
+<form action="http://webdevfoundations.net/scripts/mydemo.asp" method="post">
+
+		<!--a) Text box for username -->
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" maxlength="30"><br><br>
+		
+		<!-- b) Radio buttons for favorite day of the week -->
+		<p>Vote for your favorite day of the week:</p>
+		<input type="radio" name="favday" value="Monday"> Monday<br>
+		<input type="radio" name="favday" value="Tuesday"> Tuesday<br>
+		<input type="radio" name="favday" value="Wednesday"> Wednesday<br>
+		<input type="radio" name="favday" value="Thursday"> Thursday<br>
+		<input type="radio" name="favday" value="Friday"> Friday<br>
+		<input type="radio" name="favday" value="Saturday"> Saturday<br>
+		<input type="radio" name="favday" value="Sunday"> Sunday<br><br>
+		
+		<!--c) Select list for favorite social networking site -->
+		<label for="social">Favorite Social Networking Site:</label>
+		<select id="social" name="social">
+			<option value="facebook">Facebook</option>
+			<option value="twitter">Twitter</option>
+			<option value="instagram">Instagram</option>
+			<option value="linkedin">LinkedIn</option>
+		</select><br><br>
+		
+		<!--d) Fieldset for shipping address -->
+		<fieldset>
+			<legend>Shipping Address</legend>
+			<label for="addr1">Address Line 1:</label>
+			<input type="text" id="addr1" name="addr1"><br>
+			<label for="addr2">Address Line 2:</label>
+			<label for "city">City:</label>
+			<input type="text" id="city" name="city"><br>
+			<label for="state">State:</label>
+			<input type="text" id="state" name="state"><br>
+			<label for="zip">Zip:</label>
+			<input type="text" id="zip" name="zip"><br>
+		<fieldset><br>
+		
+		<!--e) Image button -->
+		<input type="image" src-"signup.gif" alt="Sign Up" name="signup" width="100"><br><br>
+		
+		<!--f) Hidden input control -->
+		<input type="hidden" name="userid" value="12345">
+		
+		<!--g) Password box -->
+		<label for="pword">Password:</label>
+		<input type="password" id="pword" name="pword"><br><br>
+</form>
+
+</body>
+</html>
